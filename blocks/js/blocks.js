@@ -1,12 +1,11 @@
-Blockly.Blocks["f_move"] = {
+Blockly.Blocks["f_avanza"] = {
 init: function() {
 this.appendDummyInput()
-   .appendField("mover")
-   .appendField(new Blockly.FieldNumber(0), "pasos");
+   .appendField("mover");
 this.setPreviousStatement(true, null);
 this.setNextStatement(true, null);
 this.setColour(230);
-this.setTooltip("Escribe la cantidad de cuadros");
+this.setTooltip("");
 this.setHelpUrl("");
 }};
 Blockly.Blocks["f_xira"] = {
